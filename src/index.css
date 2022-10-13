@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 1400px;
+  margin: 0px auto;
+  background-color: lightskyblue;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+  position: relative;
+  left: 160px;
+  top: 10px;
+}
+
+.container{
+  position: relative;
+  top: 100px;
+  left: 430px;
+  width: 500px;
+  height: 420px;
+  border-radius: 8px;
+  padding-left: 50px;
+  background-color: aliceblue;
+}
+
+button{
+  position: relative;
+  left: 200px;
+  padding: 5px 15px;
+}
+
+.container input{
+  width: 420px;
+  height: 23px;
+}

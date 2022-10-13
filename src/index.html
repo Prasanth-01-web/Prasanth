@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    
+    <section>
+        <div class="container">
+            <header><h1>Register Form</h1></header> <br>
+
+            <div class="label1">
+                <label><h3>Name:*</h3></label>
+                <input type="text"/> </div> <br>
+
+            <div class="label2">
+                <label><h3> Father Name:* </h3></label>
+                <input type="text"/> </div> <br>
+
+            <div class="label3">
+                <label><h3>Mother Name:* </h3></label>
+                <input type="text" /> </div> <br>
+
+            <div class="label4">
+                <label><h3> Mail id:*</h3></label>
+                <input type="text" /> </div> <br>
+             
+            <div class="label5">
+                <label><h3> Phone No:* </h3></label>
+                <input type="text" /> </div> <br>
+
+                <button id="jsonbtn">Submit</button>
+                <p id="jsontext"></p>
+
+                <script>
+                //get references for text input and button fields
+                    firstname = document.getElementById("Name")
+                    lastname = document.getElementById("Father Name")
+                    jsonBtn = document.getElementById("jsonbtn")
+                    jsonText = document.getElementById("jsontext")
+                    
+                    
+                    //add click event listener, to get data when data is entered
+                    jsonBtn.addEventListener("click", function(){
+                        //store data in JavaScript object
+                        data = {
+                            "Name":name.value,
+                            "Father Name":fathername.value
+                        }
+                        //convert JavaScript object to JSON
+                        jsonText.innerText = JSON.stringify(data)
+                    })</script>
+
+        </div>
+    </section>
+    
+</body>
+</html>

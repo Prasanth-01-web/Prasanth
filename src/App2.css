@@ -1,0 +1,12 @@
+.parrot{
+    width: 400px;
+    height: 400px;
+}
+
+.parrot2{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 40%;
+    top: 0;
+}

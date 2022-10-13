@@ -1,0 +1,68 @@
+.App{
+  margin: 0px auto;
+  width: 1500px;
+  height: 1200px;
+}
+
+.App2{
+  background-color: aliceblue;
+  height: 35px;
+  align-items: center;
+}
+
+.neo{
+  position: relative;
+  left: 39px;
+}
+
+.doc{
+  position: relative;
+  top: 5px;
+}
+
+.doc2{
+  position: relative;
+  top: 5px;
+}
+
+.App3{
+  position: relative;
+  top: 10%;
+}
+
+.App3{
+  position: relative;
+  top: 35px;
+}
+
+.doc5{
+  position: relative;
+  left: 12px;
+}
+
+.App4{
+ position: relative;
+ left: 41.7%;
+
+}
+
+.doc7{
+  position: relative;
+  left: 12px;
+}
+
+.App5{
+  margin-top: 80px;
+}
+
+.App6{
+  margin-top: 40px;
+}
+
+.btn{
+  position: relative;
+  top: 50px;
+  left: 58%;
+  width: 170px;
+}
+

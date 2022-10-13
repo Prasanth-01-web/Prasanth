@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index2.css">
+</head>
+<body>
+    <div id="root">
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    </div>
+
+    <script type="text/babel">
+      const Header = () => {
+        return(
+            <div>
+            <div className="header1">
+                <h3>ZEALEYE.AI</h3>              
+                    <ul>
+                       <li><a href="">HOME</a></li>
+                       <li><a href="http://zealeye.com/about-us/">ABOUT US</a></li>
+                       <li><a href="http://zealeye.com/services/">HELP</a></li>
+                    </ul>
+                </div>
+                </div>
+);
+}
+
+
+       const Content = () =>{
+        return(
+            <div>
+                <div class="container">
+            <header><h1>Register Form</h1></header> <br/>
+
+            <div class="label1">
+                <label><h3>Name:*</h3></label>
+                <input type="text"/> </div> <br/>
+
+            <div class="label2">
+                <label><h3> Father Name:* </h3></label>
+                <input type="text"/> </div> <br/>
+
+            <div class="label3"> 
+                <label><h3>Mother Name:* </h3></label>
+                <input type="text" /> </div> <br/>
+
+            <div class="label4">
+                <label><h3> Mail id:*</h3></label>
+                <input type="text" /> </div> <br/>
+             
+            <div class="label5">
+                <label><h3> Phone No:* </h3></label>
+                <input type="text" /> </div> <br/>
+
+                <button id="jsonbtn">Submit</button>
+        </div>
+                
+                </div>
+        )
+       }
+
+
+           const Footer = () =>{
+            return(
+                <div className="footer">
+                 &#169; Copyright Disclaimer under Section 107 of the copyright act 1976,<br/>
+                     allowance is made for fair use for purposes such as criticism, comment, news reporting, scholarship, and research.<br/>
+                      Fair use is a use permitted by copyright statute that might otherwise be infringing. Non-profit, <br/>
+                      educational or personal use tips the balance in favour of fair use.
+                    </div>
+            )
+           }
+
+
+      ReactDOM.render(
+        <div>
+       <Header/>
+       <Content/>
+       <Footer/>
+       </div> ,
+        document.getElementById("root")
+      )
+       
+
+    </script>
+    
+</body>
+</html>
